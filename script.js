@@ -134,13 +134,13 @@ const data = {
 
     // §04 Capabilities
     skills: [
-        { group: 'PROGRAMMING & SYSTEMS', items: ['Python', 'SQL', 'JavaScript / TypeScript', 'Java', 'C / C++', 'Git', 'Docker', 'FastAPI', 'REST APIs'] },
-        { group: 'ML / AI', items: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'LLM Evaluation', 'Prompt Engineering', 'RAG', 'Multi-Agent Systems', 'LangChain', 'NLP', 'Computer Vision', 'Hyperparameter Tuning'] },
-        { group: 'DATA', items: ['Pandas', 'NumPy', 'Feature Engineering', 'EDA', 'Power BI', 'Tableau'] },
-        { group: 'BACKEND & DATABASES', items: ['FastAPI', 'PostgreSQL', 'Redis', 'Supabase', 'MongoDB', 'REST APIs'] },
-        { group: 'CLOUD & DEVOPS', items: ['AWS', 'ECS Fargate', 'RDS · S3', 'CloudWatch', 'Secrets Manager', 'Docker', 'Terraform', 'GCP', 'Azure', 'CI/CD'] },
-        { group: 'WEB', items: ['React', 'Next.js', 'Node.js', 'HTML / CSS'] },
-        { group: 'GEN AI', items: ['LangChain', 'RAG', 'OpenAI API', 'Google ADK', 'Ollama', 'Prompt Engineering'] }
+        { group: 'PROGRAMMING & SYSTEMS', items: ['Python', 'R', 'SQL (MySQL)', 'JavaScript / TypeScript', 'Java', 'C / C++', 'Git', 'Linux (Ubuntu)', 'Docker', 'FastAPI', 'REST APIs'] },
+        { group: 'ML / AI', items: ['PyTorch', 'TensorFlow', 'Keras', 'Scikit-learn', 'Transformers', 'Hugging Face', 'NLP', 'Computer Vision', 'Supervised Learning', 'Unsupervised Learning', 'Clustering', 'Dimensionality Reduction', 'Anomaly Detection', 'Feature Engineering', 'Model Evaluation', 'Cross-Validation', 'Hyperparameter Tuning'] },
+        { group: 'DATA', items: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'EDA', 'Power BI', 'Tableau'] },
+        { group: 'BACKEND & DATABASES', items: ['FastAPI', 'PostgreSQL', 'MongoDB', 'Redis', 'Supabase', 'REST APIs'] },
+        { group: 'CLOUD & DEVOPS', items: ['AWS', 'GCP', 'Azure', 'Docker', 'Terraform', 'CI/CD', 'ECS Fargate', 'RDS', 'S3', 'CloudWatch', 'Secrets Manager', 'Virtual Machines'] },
+        { group: 'WEB', items: ['React', 'Next.js', 'Node.js', 'HTML', 'CSS'] },
+        { group: 'GEN AI', items: ['LangChain', 'RAG', 'OpenAI API', 'Gemini API', 'Google ADK', 'Ollama', 'Prompt Engineering', 'Embeddings', 'Vector Databases', 'FAISS', 'Chroma', 'Retrieval Pipelines', 'LLM Evaluation', 'Multi-Agent Systems'] }
     ]
 };
 
