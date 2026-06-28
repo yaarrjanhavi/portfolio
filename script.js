@@ -54,7 +54,7 @@ const data = {
             ]
         },
         {
-            title: 'VoidInk',
+            title: 'Relic',
             subtitle: 'Indie horror game reviews using Emotion-Map',
             description: 'Detects fear, dread, nostalgia, loneliness, and nine other emotions with confidence scores — not just positive/negative sentiment. Built an LLM-powered evaluation pipeline to analyze 1,000+ player reviews of indie horror games, then surfaced insights with an interactive deployed website.',
             metrics: [
@@ -84,15 +84,16 @@ const data = {
             ]
         },
         {
-            title: 'RagForge',
-            subtitle: 'Production-grade Retrieval-Augmented Generation system',
-            description: 'Production-grade RAG infrastructure; hybrid search, reranking, REST API, and eval metrics. No LangChain.',
+            title: 'GitScope',
+            subtitle: 'Instantly decode any GitHub repository with AI-powered insights.',
+            description: 'GitScope is an AI-powered tool that analyzes GitHub repositories, explaining their purpose, tech stack, complexity, and learning path in seconds.',
             metrics: [
-                { v: '95%', k: 'ACCURACY' },
-                { v: '45ms', k: 'AVG LATENCY' }
+                { v: '~2–5s', k: 'REPO ANALYSIS TIME' },
+                { v: '<500 ms', k: 'API RESPONSE LATENCY' }
             ],
-            tags: ['RAG', 'REST API', 'LLM Evaluation', 'AWS', 'PyTorch'],
+            tags: ['ML', 'GitHub API', 'Gemini API', 'Repository Analysis', 'Tailwind CSS'],
             links: [
+                { name: 'FULL DEMO ↗', url: 'https://git-scope-dashboard.vercel.app/' },
                 { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/ragforge' }
             ]
         }
