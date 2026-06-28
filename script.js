@@ -40,16 +40,16 @@ const data = {
     // §03 Evaluations — featured
     featuredProjects: [
         {
-            title: '',
-            subtitle: 'NL-to-SQL Generator using Gemini 2.0 Flash',
-            description: 'LLM-Powered NLIDB Engine A Natural Language Interface for Databases that utilizes Gemini 2.5 Flash to translate complex English queries into executable SQLite syntax. The system implements few-shot prompt engineering and JSON-structured output to automate data retrieval from relational schemas, abstracting SQL complexity for non-technical users.',
+            title: 'Rewind',
+            subtitle: 'An AI-Powered Historical Time Machine',
+            description: 'Explore any year through AI-generated insights, historical events, music trends, and interactive visualizations in a retro-inspired web experience.',
             metrics: [
-                { v: '98%', k: 'ACCURACY' },
-                { v: '2', k: 'AGENT TYPES' },
-                { v: '3 Days', k: 'V1 BUILD TIME' }
+                { v: '< 2s', k: 'RESPONSE LATENCY' },
+                { v: '~500–1000 ms', k: 'AI GENERATION TIME' }
             ],
-            tags: ['Python', 'Pandas', 'SQLite3', 'LLM Integration'],
+            tags: ['Generative AI', 'API Integration', 'Interactive Timelines', 'Vercel'],
             links: [
+                { name: 'FULL DEMO ↗', url: 'https://rewind-time-machine.vercel.app/' },
                 { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/Natural-Language-to-SQL-generator' }
             ]
         },
