@@ -40,7 +40,7 @@ const data = {
     // §03 Evaluations — featured
     featuredProjects: [
         {
-            title: 'NL2SQL',
+            title: '',
             subtitle: 'NL-to-SQL Generator using Gemini 2.0 Flash',
             description: 'LLM-Powered NLIDB Engine A Natural Language Interface for Databases that utilizes Gemini 2.5 Flash to translate complex English queries into executable SQLite syntax. The system implements few-shot prompt engineering and JSON-structured output to automate data retrieval from relational schemas, abstracting SQL complexity for non-technical users.',
             metrics: [
@@ -69,15 +69,17 @@ const data = {
             ]
         },
         {
-            title: 'Face Forge CV',
-            subtitle: 'Detect faces and objects in images, then enhance their resolution using deep learning.',
-            description: 'FaceForge CV is a two-part computer vision project that combines object/face detection with AI-powered image super-resolution. It first locates faces and objects in images or video streams, then upscales low-resolution face crops to sharp, high-resolution output using a trained U-Net model.',
+            title: 'StudyOS',
+            subtitle: 'Your AI-Powered Study Operating System',
+            description: 'A calming AI-powered study workspace that combines smart note-taking, distraction-free learning, AI tutoring, productivity tools, and personalized study analytics into one seamless platform.',
             metrics: [
-                { v: 'Haar Cascade, YOLOv8', k: 'FACE DETECTION METHOD' },
-                { v: '64×64 face crop -> 256×256 enhanced face image', k: 'SUPER-RESOLUTION' }
+                { v: '< 2s', k: 'AI RESPONSE TIME' },
+                { v: '5+', k: 'AI-POWERED MODULES' },
+                { v: '95%+', k: 'SEMANTIC SEARCH RELEVANCE' }
             ],
-            tags: ['Python', 'Haar Cascades', 'OPEN CV', 'YOLOv8'],
+            tags: ['AI', 'LLMs', 'RAG', 'Next.js', 'FastAPI'],
             links: [
+                { name: 'FULL DEMO ↗', url: 'https://study-os-env.vercel.app/' },
                 { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/FaceForge-CV' }
             ]
         },
