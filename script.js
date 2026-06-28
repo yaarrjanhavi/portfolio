@@ -102,24 +102,25 @@ const data = {
     // §03 Evaluations — additional runs
     additionalProjects: [
         {
-            title: 'PyBuddy',
-            description: 'A specialized GPT-2 based conversational AI that exclusively answers Python programming questions through intelligent keyword filtering.',
-            metric: '96.5% ACCURACY',
+            title: 'NL2SQL',
+            description: 'LLM-powered Natural Language Interface for Databases that translates English queries into executable SQLite syntax using Gemini, few-shot prompting, and structured JSON outputs.',
+            metric: '98% ACCURACY',
             links: [
-                { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/PyBuddy' }
-            ]
+                { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/Natural-Language-to-SQL-generator' }]
         },
         {
-            title: 'wheelo',
-            description: 'wheelo is a high-fidelity, retro-themed web application designed for randomized selection. It leverages a custom-built Canvas-based rendering engine to provide a seamless, interactive user experience. The project adheres to modern web standards, utilizing a responsive "Mobile-First" design philosophy with a "Cream-and-Brown" pixel-art aesthetic.',
-            metric: 'Fair Wheel of Fortune',
-            links: [{ name: 'PROJECT ↗', url: 'https://wheelo-lime.vercel.app/' }]
+            title: 'VoidInk',
+            description: 'Emotion-aware NLP platform that detects 12 emotions from indie horror game reviews using transformer-based sentiment analysis and interactive visualizations.',
+            metric: '12 EMOTIONS',
+            links: [
+                { name: 'LIVE DEMO ↗', url: 'https://voidink-eight.vercel.app/' }]
         },
         {
-            title: 'RAG Chatbot',
-            description: 'A Retrieval-Augmented Generation (RAG) chatbot developed using LangChain and Google’s Gemini AI to respond to queries about healthcare facility reviews. The system leverages vector embeddings to fetch relevant review data and uses a large language model to generate accurate, context-aware answers.',
-            metric: '92% ACCURACY',
-            links: [{ name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/RAG-Chatbot' }]
+            title: 'FaceForge CV',
+            description: 'Computer vision pipeline combining Haar Cascades, YOLOv8, and U-Net super-resolution to detect faces and objects while enhancing low-resolution facial images.',
+            metric: '45ms AVG LATENCY',
+            links: [
+                { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/FaceForge-CV' }]
         },
         {
             title: 'VitAir',
