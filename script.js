@@ -50,12 +50,12 @@ const data = {
             tags: ['Generative AI', 'API Integration', 'Interactive Timelines', 'Vercel'],
             links: [
                 { name: 'FULL DEMO ↗', url: 'https://rewind-time-machine.vercel.app/' },
-                { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/Natural-Language-to-SQL-generator' }
+                { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/rewind' }
             ]
         },
         {
             title: 'Relic',
-            subtitle: 'A digital time machine for exploring the internet's past.',
+            subtitle: 'A digital time machine for exploring the internet past.',
             description: 'Relic is an AI-powered web app that lets users travel back in time to explore the internet through historical events, viral trends, iconic websites, and cultural moments from any year.',
             metrics: [
                 { v: '5+', k: 'INTEGRATED APIs' },
@@ -65,7 +65,7 @@ const data = {
             tags: ['Data Aggregation', 'Responsive Design', 'Historical Data', 'shadcn/ui'],
             links: [
                 { name: 'FULL DEMO ↗', url: 'https://relic-internet-archive.vercel.app/' },
-                { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/voidink'}
+                { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/relic'}
             ]
         },
         {
@@ -80,7 +80,7 @@ const data = {
             tags: ['AI', 'LLMs', 'RAG', 'Next.js', 'FastAPI'],
             links: [
                 { name: 'FULL DEMO ↗', url: 'https://study-os-env.vercel.app/' },
-                { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/FaceForge-CV' }
+                { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/study-os' }
             ]
         },
         {
@@ -94,7 +94,7 @@ const data = {
             tags: ['ML', 'GitHub API', 'Gemini API', 'Repository Analysis', 'Tailwind CSS'],
             links: [
                 { name: 'FULL DEMO ↗', url: 'https://git-scope-dashboard.vercel.app/' },
-                { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/ragforge' }
+                { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/GitScope' }
             ]
         }
     ],
