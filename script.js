@@ -55,16 +55,16 @@ const data = {
         },
         {
             title: 'Relic',
-            subtitle: 'Indie horror game reviews using Emotion-Map',
-            description: 'Detects fear, dread, nostalgia, loneliness, and nine other emotions with confidence scores — not just positive/negative sentiment. Built an LLM-powered evaluation pipeline to analyze 1,000+ player reviews of indie horror games, then surfaced insights with an interactive deployed website.',
+            subtitle: 'A digital time machine for exploring the internet's past.',
+            description: 'Relic is an AI-powered web app that lets users travel back in time to explore the internet through historical events, viral trends, iconic websites, and cultural moments from any year.',
             metrics: [
-                { v: '12', k: 'EMOTIONS' },
-                { v: '97%', k: 'ACCURACY' },
-                { v: 'MULTI', k: 'REVIEWS ANALYZED' }
+                { v: '5+', k: 'INTEGRATED APIs' },
+                { v: '< 1.8s', k: 'AVG API RESPONSE TIME' },
+                { v: '2000–Present', k: 'HISTORICAL DATA COVERAGE' }
             ],
-            tags: ['NLP', 'Sentiment Analysis', 'BERT'],
+            tags: ['Data Aggregation', 'Responsive Design', 'Historical Data', 'shadcn/ui'],
             links: [
-                { name: 'FULL DEMO ↗', url: 'https://voidink-eight.vercel.app/' },
+                { name: 'FULL DEMO ↗', url: 'https://relic-internet-archive.vercel.app/' },
                 { name: 'GITHUB ↗', url: 'https://github.com/yaarrjanhavi/voidink'}
             ]
         },
