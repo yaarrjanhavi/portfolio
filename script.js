@@ -8,7 +8,7 @@ const data = {
     // §02 Training run — most recent first (Updated June 2026)
     experience: [
         {
-            id: 'RUN-05',
+            id: 'RUN-01',
             status: 'running',
             date: 'DEC 2025 — PRESENT',
             role: 'Tech Executive',
@@ -25,6 +25,20 @@ const data = {
             id: 'RUN-02',
             status: 'complete',
             date: 'JAN 2026 — MAY 2026',
+            role: 'AI Development Intern',
+            org: 'SYNK',
+            loc: 'Remote',
+            points: [
+                'Engineered deep learning models and NLP pipelines, improving feature extraction accuracy by 18%.',
+                'Integrated RAG frameworks and optimized data preprocessing workflows for large-scale datasets.',
+                'Implemented MLOps practices including containerization (Docker) and version control to streamline model deployment.'
+            ],
+            tags: ['Artificial Intelligence', 'RAG', 'Orchestration', 'Docker']
+        },
+        {
+            id: 'RUN-03',
+            status: 'complete',
+            date: 'DEC 2025 — JAN 2026',
             role: 'Freelancer',
             org: 'Calm Quest',
             loc: 'Remote',
