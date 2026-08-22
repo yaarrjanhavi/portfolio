@@ -15,11 +15,12 @@ const data = {
             org: 'Catalyst Tech',
             loc: 'Pune, MH',
             points: [
-                'Curated high-fidelity labeled datasets for drone-based computer vision and object detection tasks.',
-                'Executed preprocessing and QA workflows to eliminate bias and ensure data integrity.',
-                'Aligned dataset specifications with UAV flight dynamics and hardware constraints.'
+                'Engineered multi-agent orchestration frameworks to coordinate autonomous drone tasks and navigation workflows.',
+                'Developed intelligent AI/ML task-dispatch pipelines for multi-UAV operational efficiency.',
+                'Optimized decentralized agent-based execution models for real-time drone control.',
+                'Implemented autonomous decision-making algorithms to streamline complex aerial robotics operations.'
             ],
-            tags: ['Data Benchmarking', 'Data Curation', 'Clinical NLP', 'Drones']
+            tags: ['Agent Orchestration', 'Data Curation', 'Clinical NLP', 'Drones', 'Computer Vision']
         },
         {
             id: 'RUN-02',
